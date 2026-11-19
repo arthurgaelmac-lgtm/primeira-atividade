@@ -71,6 +71,16 @@ for(let i= 1;i<=10 ;i++){
 //16-teclado e 3, para adicionar escreva produtos.push("monitor");
 
 //17-
+let  boletim= [0,1,2,3,4];
+let soma = 0;
+let media_nota= 0;
+for(let i=0; i < boletim.length;i++){
+soma= soma+boletim[i];
+media_nota = soma;  
+}
+media_nota = media_nota / boletim.length;
+
+console.log(media_nota);
 
 ///18-
 
